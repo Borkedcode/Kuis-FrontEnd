@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 
 export default function EditItemPage() {
-    const params = useParams();        // <-- FIX
+    const params = useParams();
     const router = useRouter();
 
     // params.id sekarang sudah benar (string)
